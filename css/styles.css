@@ -45,10 +45,10 @@ ol {
 }
 
 .photo-my {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 70px;
+  display: block; /* Забезпечує, щоб працювали margin */
+  max-width: 180px; /* Встановлює максимальну ширину */
+  height: auto; /* Зберігає пропорції зображення */
+  margin: 0 auto; /* Центрує зображення горизонтально */
 }
 
 /* Contacts */
@@ -85,6 +85,11 @@ ol {
 
 .contacts-container {
   margin-bottom: 40px;
+}
+
+.contacts-address {
+  font-size: 14px;
+  color: #555;
 }
 
 /* Skills container */
@@ -137,6 +142,30 @@ ol {
   color: #161d2a;
 }
 
+.languages-container {
+  margin-bottom: 40px;
+}
+
+.languages-title {
+  font-weight: 700;
+  font-size: 22px;
+  color: #161d2a;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.languages-list {
+  padding-left: 16px;
+}
+
+.languages-list-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+}
+
 /* Main content */
 
 .my-profession {
@@ -180,7 +209,7 @@ ol {
 }
 
 .my-projects-item {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: #000;
@@ -203,6 +232,18 @@ ol {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
+}
+
+.role-label {
+  font-weight: 700; /* Жирний текст для Role */
+  font-size: 14px;
+  color: #161d2a;
+}
+
+.description-label {
+  font-weight: 700; /* Жирний текст для Description */
+  font-size: 14px;
+  color: #161d2a;
 }
 
 .my-projects-container {
