@@ -195,6 +195,13 @@ ol {
   color: #595959;
 }
 
+.about-me {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
 .my-info {
   margin-bottom: 40px;
 }
