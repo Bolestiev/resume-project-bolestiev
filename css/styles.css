@@ -311,6 +311,13 @@ ol {
   margin-bottom: 12px;
 }
 
+.work-projects {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
 /* Education */
 
 .education-title {
